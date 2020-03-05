@@ -1,0 +1,56 @@
+@media only screen and (min-width: 600px) {
+    html{
+        font-size: 25%;
+      }
+      .img-ellipse1{
+          display: block;
+      }
+      .img-ellipse2{
+        display: block;
+        }
+        #ellipse1{
+            width: 90vw;
+            height: 80vh;
+        }
+        #ellipse2{
+            width: 90vw;
+            height: 80vh;
+        }
+        #ellipse3{
+            width: 90vw;
+            height: 80vh;
+        }
+        td{
+            width:7rem;
+            
+        }
+        table{
+            padding:3.5rem;
+        }
+        
+    .item3{
+        margin-left:10rem;
+        margin-right:10rem;
+        display: grid;
+        grid-template-areas:
+        'part1 part2 part3';
+        grid-auto-columns: 1fr;
+        justify-items: center;
+        
+    }
+    .part1{
+        grid-area: part1;
+        justify-self: center;
+        
+    }
+    .part2{
+        grid-area: part2;
+        justify-self: center;
+        
+    }
+    .part3{
+        grid-area: part3;
+        justify-self: center;
+    }
+    
+}
